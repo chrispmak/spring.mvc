@@ -14,6 +14,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 public class MvcConfiguration extends WebMvcConfigurerAdapter {
 
     //// FIXME: 10/1/16 this aint working
+    //// TODO: 10/1/16 check this shit out 
     @Bean
     public ViewResolver getViewResolver() {
         InternalResourceViewResolver resolver = new InternalResourceViewResolver();
